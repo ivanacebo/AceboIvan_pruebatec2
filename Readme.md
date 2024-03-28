@@ -79,6 +79,7 @@ Aquí podemos acceder a dar acceso al siguiente turno para atenderlo. Pasa de "E
 	
 Se adjunta un UML.
 Clase Persona de la que hereda distintos atributos tanto la clase Funcionario con sus atributos y la clase Ciudadano con sus atributos.
+
 Un Funcionario puede atender muchos turnos pero un turno solo puede ser atendido por un Funcionario. Un Ciudadano puede pertenecer a muchos turnos pero un turno solo a un Ciudadano. Un Trámite puede estar en muchos
 turnos pero en un turno solo se puede atender un Trámite.
 
