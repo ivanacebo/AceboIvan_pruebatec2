@@ -56,14 +56,14 @@ Aquí podemos acceder a dar acceso al siguiente turno para atenderlo. Pasa de "E
 
 ## Distintos escenarios considerados
 
-**1 -> Eliminación lógica por ID;
+**1 -> Eliminación lógica por ID;**
 		Se adquiere el id visualizando todos los datos de la parte a eliminar que estan incluidos en la tabla.
 		
-**2 -> Inmutabilidad del ID en la base de datos;
+**2 -> Inmutabilidad del ID en la base de datos;**
 		Se garantiza que el id nunca puede ser modificado de ningua de las clases que utilizamos ya que es su identificador.
 		En cuanto al Turno el id seria el número de turno que tenemos y con el que hemos sido atendidos.
 		
-**3 -> Prevención de duplicación de datos:
+**3 -> Prevención de duplicación de datos:**
 		Se considera que el usuario debe evitar la duplicación de datos. En el caso de una confusión se ofrece la opción de eliminar dicho duplicado. Se proporciona una capacidad de listar para verificar la existencia.
 		
 **4 -> Gestión de atender turno:**
