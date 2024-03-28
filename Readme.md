@@ -56,24 +56,24 @@ Aquí podemos acceder a dar acceso al siguiente turno para atenderlo. Pasa de "E
 
 ## Distintos escenarios considerados
 
-	**1 -> Eliminación lógica por ID;
-			Se adquiere el id visualizando todos los datos de la parte a eliminar que estan incluidos en la tabla.
-			
-	**2 -> Inmutabilidad del ID en la base de datos;
-			Se garantiza que el id nunca puede ser modificado de ningua de las clases que utilizamos ya que es su identificador.
-			En cuanto al Turno el id seria el número de turno que tenemos y con el que hemos sido atendidos.
-			
-	**3 -> Prevención de duplicación de datos:
-			Se considera que el usuario debe evitar la duplicación de datos. En el caso de una confusión se ofrece la opción de eliminar dicho duplicado. Se proporciona una capacidad de listar para verificar la existencia.
-			
-	**4 -> Gestión de atender turno:**
-			El que en este caso va a atender el siguiente turno sería el Funcionario por lo que desde Funcionarios se accede a atender turno y con el boton de atender siguiente turno se buscaria el nº de turno mas bajo
-			que no ha sido ya atendido ("En espera") y se modifica su estado a "Ya atendido". Cumplimos así con turnos númericos (ID), asignados por orden de llegada y modificando su estado.
-			
-	**5 -> Unión Bidireccional en base de datos**
-	
-	**6 -> Duplicidad de turno:**
-			Se puede saber la duplicidad de turno con la visualización de las tablas por lo que se puede proceder a su eliminación.
+**1 -> Eliminación lógica por ID;
+		Se adquiere el id visualizando todos los datos de la parte a eliminar que estan incluidos en la tabla.
+		
+**2 -> Inmutabilidad del ID en la base de datos;
+		Se garantiza que el id nunca puede ser modificado de ningua de las clases que utilizamos ya que es su identificador.
+		En cuanto al Turno el id seria el número de turno que tenemos y con el que hemos sido atendidos.
+		
+**3 -> Prevención de duplicación de datos:
+		Se considera que el usuario debe evitar la duplicación de datos. En el caso de una confusión se ofrece la opción de eliminar dicho duplicado. Se proporciona una capacidad de listar para verificar la existencia.
+		
+**4 -> Gestión de atender turno:**
+		El que en este caso va a atender el siguiente turno sería el Funcionario por lo que desde Funcionarios se accede a atender turno y con el boton de atender siguiente turno se buscaria el nº de turno mas bajo
+		que no ha sido ya atendido ("En espera") y se modifica su estado a "Ya atendido". Cumplimos así con turnos númericos (ID), asignados por orden de llegada y modificando su estado.
+		
+**5 -> Unión Bidireccional en base de datos**
+
+**6 -> Duplicidad de turno:**
+		Se puede saber la duplicidad de turno con la visualización de las tablas por lo que se puede proceder a su eliminación.
 
 ## Relación entre clases
 	
