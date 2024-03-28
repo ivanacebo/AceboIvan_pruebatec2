@@ -105,7 +105,7 @@ La relación entre usuario y funcionario deberia ser 1 a 1.
 - Instalación y configuración
 - Clonar el repositorio desde GitHub.
 - Configure la conexión a la base de datos en el archivo de configuración correspondiente.
-- Configuración del proyecto y ejecución desde un IDE de desarrollo.
+- Configuración del proyecto y ejecución desde un IDE de desarrollo. (sugerencia -> netbeans)
 
 ##Contribuciones
 
